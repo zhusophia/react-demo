@@ -1,8 +1,14 @@
 export const Greet = (props) => {
-    return <h1>Hello {props.name}</h1>
+    <div>
+    return <h1>Hello {props.name}, {props.age}</h1>
+    {props.children}
+    </div>
 }
 
+export default Greet
 
+
+// name is the thing it finds, i think
 
 /*function Greet() {
     return <h1>Hello Ice {2 + 2}</h1> // this is actually jsx and not html
@@ -34,5 +40,4 @@ console.log(pen1);
 
 */
 
-export default Greet
 

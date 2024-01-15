@@ -15,8 +15,10 @@ function App() {
   return (
     <div className="App">
      <Greet name ='Bruce'/>
-     <Greet name = "Wildons"/>
-     <Greet name = "test"/>
+     <Greet name = "Wildons" age = "25"/>
+     <Greet name = "test" age = "hello">
+      <p>This is children props</p>
+     </Greet>
     </div>
   );
 }
