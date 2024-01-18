@@ -15,7 +15,9 @@ function App() {
   return (
     <div className="App">
      <Greet name ='Bruce'/>
-     <Greet name = "Wildons" age = "25"/>
+     <Greet name = "Wildons" age = "25"> 
+     <button>Action</button>
+     </Greet>
      <Greet name = "test" age = "hello">
       <p>This is children props</p>
      </Greet>

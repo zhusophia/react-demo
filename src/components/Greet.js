@@ -1,8 +1,10 @@
 export const Greet = (props) => {
+    return (
     <div>
-    return <h1>Hello {props.name}, {props.age}</h1>
-    {props.children}
+    <h1>Hello {props.name}, {props.age}</h1>
+        {props.children}
     </div>
+    )
 }
 
 export default Greet
