@@ -8,19 +8,25 @@ import './App.css';
 
 // props = optional input that commands accept (so think of it like an variable that takes input)
 // makes things dynamic 
+// props.children accepts anything in between the opening and closing, regardless if <p> or <Button>, etc. 
 
-import Greet from './components/Greet'
+// import Greet from './components/Greet'
+import Message from './components/Message'
 
 function App() {
   return (
     <div className="App">
-     <Greet name ='Bruce'/>
+     {/* <Greet name ='Bruce'/>
      <Greet name = "Wildons" age = "25"> 
+     <button>Action</button>
+     <br></br>
      <button>Action</button>
      </Greet>
      <Greet name = "test" age = "hello">
-      <p>This is children props</p>
-     </Greet>
+      <p>This is children props</p> 
+     </Greet>  */}
+
+    <Message></Message>
     </div>
   );
 }

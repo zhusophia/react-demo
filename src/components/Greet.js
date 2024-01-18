@@ -1,5 +1,6 @@
 export const Greet = (props) => {
     return (
+        // immutable. can not assign props.name wtihin thsi variable
     <div>
     <h1>Hello {props.name}, {props.age}</h1>
         {props.children}
@@ -38,7 +39,7 @@ console.log(pen1);
 
 28:04
 
-
+// information is often immutable -> can't just start assigning variables inside greet. 
 
 */
 
