@@ -5,7 +5,6 @@
 // event contanis all the details about the event
 // you can also use it to pass ecpfici values, setting it as a parameter
 
-//52:59
 
 
 export const ClickHandler = () => {
