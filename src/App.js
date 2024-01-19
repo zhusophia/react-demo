@@ -11,7 +11,8 @@ import './App.css';
 // props.children accepts anything in between the opening and closing, regardless if <p> or <Button>, etc. 
 
 // import Greet from './components/Greet'
-import Message from './components/Message'
+// import Message from './components/Message'
+import { ClickHandler } from './components/ClickHandler'
 
 function App() {
   return (
@@ -24,9 +25,11 @@ function App() {
      </Greet>
      <Greet name = "test" age = "hello">
       <p>This is children props</p> 
-     </Greet>  */}
+     </Greet>  
+     <Message></Message>
+     */}
 
-    <Message></Message>
+    <ClickHandler></ClickHandler>
     </div>
   );
 }
