@@ -14,7 +14,11 @@ import { ParentComponent } from './components/ParentComponent';
 // import Greet from './components/Greet'
 // import Message from './components/Message'
 // import { ClickHandler } from './components/ClickHandler'
-
+//import { UserGreeting } from './components/UserGreeting';
+//import { NameList } from './components/NameList'
+// import { StyleSheet } from './components/StyleSheet';
+// import { Inline } from './components/Inline';
+import { Form } from './Form';
 function App() {
   return (
     <div className="App">
@@ -29,10 +33,13 @@ function App() {
      </Greet>  
      <Message></Message>
      <ClickHandler></ClickHandler>
+     <ParentComponent></ParentComponent>
      */}
-
-      <ParentComponent></ParentComponent>
     
+     {/* <UserGreeting></UserGreeting> */}
+    
+    {/* <NameList /> */}
+    <Form></Form>
     </div>
   );
 }
